@@ -1,5 +1,5 @@
 ---
-title: About John
+title: What's a Reality Miner?
 comments: false
 ---
 
