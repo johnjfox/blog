@@ -11,7 +11,7 @@ googleAnalytics = "UA-34979215-3"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
-  subtitle = "Random thoughts"
+  subtitle = "Random thoughts about data in the real world"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
@@ -56,41 +56,57 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-    
+
+# ---------------------------------
 [[menu.main]]
     name = "Blog"
     url = ""
     weight = 1
 
+# ----------------------------------
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
-
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
+    identifier = "projects"
+    name = "Projects"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
+    parent = "projects"
     name = "Big Image Sample"
     url = "post/2017-03-07-bigimg-sample"
     weight = 1
 
 [[menu.main]]
-    parent = "samples"
+    parent = "projects"
     name = "Math Sample"
     url = "post/2017-03-05-math-sample"
     weight = 2
 
 [[menu.main]]
-    parent = "samples"
+    parent = "projects"
     name = "Code Sample"
     url = "post/2016-03-08-code-sample"
     weight = 3
 
+# ----------------------------------
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    weight = 3
+    
+[[menu.main]]
+	parent = "about"
+    name = "About Me"
+    url = "page/about/"
+    weight = 1
+
+[[menu.main]]
+	parent = "about"
+    name = "Reality Miners"
+    url = "page/reality-miners/"
+    weight = 2
+    
+# ----------------------------------
 [[menu.main]]
     name = "Tags"
     url = "tags"
-    weight = 3
+    weight = 4
