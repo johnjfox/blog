@@ -76,22 +76,22 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [[menu.main]]
     parent = "projects"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample/"
+    name = "The Analytic Enterprise"
+    url = "https://github.com/johnjfox/Analytic_Enterprise"
     weight = 1
 
 [[menu.main]]
     parent = "projects"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample/"
+    name = "JMP Video Tutorials"
+    url = "https://github.com/johnjfox/Video_Index"
     weight = 2
 
 [[menu.main]]
     parent = "projects"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample/"
+    name = "Raspberry Pi"
+    url = "/2016/11/18/intro-to-raspberry-pi/"
     weight = 3
-
+    
 # ----------------------------------
 [[menu.main]]
     identifier = "about"
