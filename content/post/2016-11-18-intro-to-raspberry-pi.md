@@ -6,7 +6,8 @@ slug: intro-to-raspberry-pi
 categories:
   - tutorials
   - pi
-tags: []
+tags:
+  - pi
 subtitle: ''
 ---
 
