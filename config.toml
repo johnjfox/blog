@@ -12,7 +12,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [Params]
   subtitle = "Random thoughts about data in the real world"
-  logo = "img/avatar-icon.png"
+  logo = "img/gorilla.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
